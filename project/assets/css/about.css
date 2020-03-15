@@ -1,0 +1,46 @@
+/* ---- header --------*/
+.nav{
+	display:flex;
+	flex-direction: row;
+	font-family: adobe-tamil, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	color: #707070;
+	padding:20px;
+	border-bottom: 8px solid #FDEAEA;
+}
+/*just title*/
+#title{
+	padding-top: 5px;
+	font-size: 50px;
+}
+/* the logo picture*/
+.logopic{
+	padding-top: 0px;
+	padding-left:50px;
+	padding-right:15px;
+	transform: rotate(20deg);
+}
+/*menu box */
+.menu{
+	display:flex;
+	flex-grow:1;
+	justify-content: flex-end;
+
+}
+/* for each item in the menu */
+.menu a{
+	padding:20px 40px;
+	font-size:30px; 
+	text-decoration: none;
+	color: #707070;
+}
+
+/*special effects for links */
+a:hover {
+	text-decoration: underline;
+	text-decoration-color:#FDEAEA;
+
+}
+/* ---- header --------*/
+
